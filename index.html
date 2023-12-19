@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en"> <!--ENGLISH-->
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Term Project - Plays Mastermind</title>
+        <link type="text/css" rel="stylesheet" href="style.css">
+<style>
+    .browser-requirements {
+      background-color: #ffe4e1;
+      padding: 10px;
+      text-align: center;
+    }
+    .answer-boxes {
+      background-color: #722F37;
+      padding: 10px;
+      text-align: left;
+      color:white;
+    }
+</style>
+    </head>
+<h1>Mastermind Game</h1>
+<h2>Colors:</h2>
+    <body style="background-color:grey;">
+<img src="blue.gif" alt="blue"  width="40" height="40">
+<img src="red.gif" alt="red"  width="40" height="40">
+<img src="purple.gif" alt="purple"  width="40" height="40">
+<img src="green.gif" alt="green"  width="40" height="40">
+<img src="yellow.gif" alt="yellow"  width="40" height="40">
+<img src="orange.gif" alt="orange"  width="40" height="40">
+<img src="cyan.gif" alt="cyan"  width="40" height="40">
+        <div id="wrapper">
+            <div id="row0">
+                <div class="pin" id="answer_col0">&nbsp;</div>
+                <div class="pin" id="answer_col1">&nbsp;</div>
+                <div class="pin" id="answer_col2">&nbsp;</div>
+                <div class="pin" id="answer_col3">&nbsp;</div>
+            </div>
+        </div>
+        <button id="resetButton" onClick="window.location.reload();">Reset Game</button>
+        <button id="helpButton">Help</button>
+
+  <div class="browser-requirements">
+    <p>This browser doesn't support images. Page will not work properly. Upgrade your browser.</p>
+  </div>
+  <div class="answer-boxes">
+    <p>All Answer Boxes must be filled with a Color prior to Check Answer.</p>
+  </div>
+        <script src="app.js"></script>
+        <script src="WINRATE.JSON"><script>
+    </body>
+</html>

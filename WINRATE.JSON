@@ -1,0 +1,51 @@
+let turns = remainingTries;
+{
+  "title": "You won:",
+  "message": "WOW! You are lucky. Take me to Las Vegas when you go. Answer was ",
+  "turns": 1
+}
+{
+  "title": "You won:",
+  "message": "Excellent! You are extremely lucky. Answer was ",
+  "turns": 2
+}
+{
+  "title": "You won:",
+  "message": "Superior! You are very lucky. Answer was ",
+  "turns": 3
+}
+{
+  "title": "You won:",
+  "message": "Extremely Good! Your logic skills are great. Answer was ",
+  "turns": 4
+}
+{
+  "title": "You won:",
+  "message": "Very Good! Your logic skills are very good. Answer was ",
+  "turns": 5
+}
+{
+  "title": "You won:",
+  "message": "Good! Your logic skills are good. Answer was ",
+  "turns": 6
+}
+{
+  "title": "You won:",
+  "message": "Nicely Done! Your logic skills are developing very well. Answer was ",
+  "turns": 7
+}
+{
+  "title": "You won:",
+  "message": "Smile! Your logic skills are doing well. Answer was ",
+  "turns": 8
+}
+{
+  "title": "You won:",
+  "message": "Got it! Your logic skills are starting to show up. Answer was ",
+  "turns": 9
+}
+{
+  "title": "You won:",
+  "message": "Right! Your logic skills are adequate. Answer was ",
+  "turns": 10
+}
